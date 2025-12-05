@@ -1,0 +1,159 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    /* height: 100%; */
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: url(med.jpg) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+}
+
+header {
+    background: #0b8c74;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    margin-right: 100px;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #a7fff9;
+    letter-spacing: 1px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 35px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+
+    max-width: 900px;
+    margin: 200px auto 0 auto;
+    text-align: left;
+    padding: 40px;
+    background: rgba(174, 218, 207, 0.6);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    max-height: 500px;
+}
+
+.content h1 {
+    margin-bottom: 20px;
+    color: black;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: black;
+}
+
+.btn-box {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+#main-btn {
+    padding: 12px 28px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    background: #0b8c74;
+    color: white;
+    transition: 0.3s;
+}
+
+
+.main-btn:hover {
+    background: #0fa98d;
+}
+
+footer {
+    background: #0b8c74;
+    color: white;
+    padding: 50px 0 20px;
+    margin-top: 200px;
+}
+
+.footer-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 23%;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-col h3,
+.footer-col h4 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: white;
+}
+
+.footer-col p {
+    line-height: 1.6;
+    opacity: 0.8;
+}
+
+footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin: 8px 0;
+}
+
+.footer-col ul li a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: #0b8c74;
+    opacity: 1;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 15px 0;
+    border-top: 1px solid white;
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.7;
+}

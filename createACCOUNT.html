@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account - MedCare+</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #dff7f2;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+           header {
+            background: rgba(11, 140, 116, 0.8);
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 18px;
+            position: fixed;
+           left: 0;
+           width: 100vw;  
+            top: 0;
+            z-index: 10;
+        }
+        .navbar{
+            margin-right: 100px;
+        }
+
+        /* Logo style */
+        .logo {
+            font-size: 32px;
+            font-weight: bold;
+            color: #a7fff9; 
+            letter-spacing: 1px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: 35px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+              width: 880px;                
+    max-width: 90%;
+    margin: 160px auto 0 ; 
+            background: rgba(255,255,255,0.3);
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+        }
+        input, button {
+            width: 80%;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 6px;
+            border: 2px solid #0b8c74;
+            font-size: 16px;
+        }
+        button {
+            background: #0b8c74;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #09745f;
+        }
+         footer {
+             background: #0b8c74;
+             color: white;
+             margin-top: 40px; 
+                padding: 40px 0 20px;
+}
+
+.footer-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 23%;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+.footer-col h3,
+.footer-col h4 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: white;
+}
+
+.footer-col p {
+    line-height: 1.6;
+    opacity: 0.8;
+}
+
+footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin: 8px 0;
+}
+.footer-col ul li a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: white;
+    opacity: 1;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 15px 0;
+    border-top: 1px solid white;
+    margin-top: 20px;
+    font-size: 14px;
+   opacity:0.7;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">MedCare+</div>
+
+        <nav class="navbar">
+            <a href="#" id="homelink" class="home1">Home</a>
+            <a href="#" class="medicines1">Medicines</a>
+            <a href="#" class="services1">Services</a>
+            <a href="#"  id="homelink2"  class="login1">Login</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Create Account</h2>
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <input type="password" placeholder="Confirm Password">
+        <button>Create Account</button>
+    </div>
+    <footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-col">
+            <h3>MedCare+</h3>
+            <p>Your trusted platform for online medical consultation, verified doctors, and reliable health guidance.</p>
+        </div>
+
+        <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Medicines</a></li>
+                <li><a href="#">Doctors</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4>Support</h4>
+            <ul>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Report an Issue</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Contact</h4>
+            <p>Email: support@medcareplus.com</p>
+            <p>Phone: +91 98765 43210</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2025 MedCare+ — All rights reserved.</p>
+ </div>
+</footer>
+    <script src="login.js"></script>
+</body>
+</html>
