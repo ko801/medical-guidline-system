@@ -55,7 +55,7 @@ if (medicines3) {
 
 if (home3) {
     home3.addEventListener("click", function() {
-        window.location.href = "main.html";  
+        window.location.href = "index.html";  
     });
 }
 if (services3) {

@@ -18,7 +18,7 @@ if (medicines2) {
 
 if (home2) {
     home2.addEventListener("click", function() {
-        window.location.href = "main.html";  
+        window.location.href = "index.html";  
     });
 }
 if (services2) {
