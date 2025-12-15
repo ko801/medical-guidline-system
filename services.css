@@ -277,3 +277,69 @@ footer-col ul {
     font-size: 14px;
     opacity: 0.7;
 }
+
+@media (max-width: 900px) {
+
+    .navbar {
+        margin-right: 30px;
+    }
+
+    nav a {
+        margin-left: 20px;
+        font-size: 16px;
+    }
+
+    header {
+        padding: 12px 25px;
+    }
+
+    .logo {
+        font-size: 26px;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 12px 15px;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .navbar {
+        margin-right: 0;
+    }
+
+    nav a {
+        margin-left: 15px;
+        font-size: 15px;
+    }
+
+    .doctor-list {
+        grid-template-columns: 1fr;
+    }
+
+    .chat-input {
+        flex-direction: column;
+    }
+
+    .chat-input input {
+        font-size: 16px;
+        padding: 14px;
+    }
+
+    .pro-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-col {
+        width: 100%;
+    }
+}

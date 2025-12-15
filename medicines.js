@@ -31,4 +31,3 @@ if (login2) {
         window.location.href = "login.html";  
     });
 }
-
